@@ -57,7 +57,7 @@ steamPage:
             [*] Modo historia en el que los edificios cuesten figuras
             [*] Más niveles y edificios (exclusivos del juego completo)
             [*] Mapas diferentes y tal vez obstáculos en el mapa
-            [*] Configuración en la cración del mapa (Editar el número y tamaño de los recursos, la semilla, y más)
+            [*] Configuración en la creación del mapa (Editar el número y tamaño de los recursos, la semilla, y más)
             [*] Más tipos de formas
             [*] Mejoras de rendimiento (Aunque el juego ya funciona muy bien!)
             [*] Modo para daltónicos
@@ -120,7 +120,7 @@ mainMenu:
     changelog: Registro de cambios
     importSavegame: Importar
     openSourceHint: Este juego es de código abierto!
-    discordLink: Servidor de Discord Oficil
+    discordLink: Servidor de Discord Oficial
     helpTranslate: Ayuda a traducirlo!
 
     # This is shown when using firefox and other browsers which are not supported.
@@ -159,7 +159,7 @@ dialogs:
         delete: Borrar
         cancel: Cancelar
         later: Más Tarde
-        restart: Volver A Empezar
+        restart: Reiniciar
         reset: Resetear
         getStandalone: Obtener Juego Completo
         deleteGame: Sé Lo Que Hago
@@ -198,15 +198,15 @@ dialogs:
             Tienes que reinciar la partida para aplicar los cambios.
 
     editKeybinding:
-        title: Cambiar atajos de teclado
+        title: Cambiar controles
         desc: Presiona la tecla o botón del ratón que quieras asignar o escape para cancelar.
 
     resetKeybindingsConfirmation:
-        title: Resetear atajos de teclado
+        title: Reiniciar controles
         desc: Esto reseteará todos los atajos de teclado a los valores por defecto. Por favor, confirma.
 
     keybindingsResetOk:
-        title: Reseteo de los atajos de teclado
+        title: Reinicio de los controles
         desc: Los atajos de taclado han sito reseteados a los valores por defecto!
 
     featureRestriction:
@@ -244,7 +244,7 @@ dialogs:
         desc: >-
             Estás borrando muchos edificios (<count> para ser exactos)! ¿Estás seguro de querer hacer esto?
     blueprintsNotUnlocked:
-        title: No desbloqueado todavía
+        title: No desbloqueado aún
         desc: >-
             Los planos no han sido desbloqueados todavía! Completa más niveles para desbloquearlos.
     keybindingsIntroduction:
@@ -257,11 +257,11 @@ dialogs:
             <code class='keybinding'>ALT</code>: Invierte la orientación de las cintas transportadoras colocadas.<br>
 
     createMarker:
-        title: Nueva marca
+        title: Nuevo marcador
         desc: Dale un nombre representativo
 
     markerDemoLimit:
-        desc: solo puedes crear dos marcas en la versión de prueba. Obtén el juego completo para marcas ilimitadas!
+        desc: solo puedes crear dos marcadores en la versión de prueba. Obtén el juego completo para marcadores ilimitados!
 
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
@@ -276,7 +276,7 @@ ingame:
         disableAutoOrientation: Desactiva la auto orientación
         toggleHud: Habilita el HUD
         placeBuilding: Colocar edificio
-        createMarker: Crear marca
+        createMarker: Crear marcador
         delete: Destruir
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
@@ -369,14 +369,14 @@ ingame:
 
     # When placing a blueprint
     blueprintPlacer:
-        cost: Coste
+        cost: Costo
 
     # Map markers
     waypoints:
         waypoints: Marcadores
         hub: Edificio Central
         description: Click izquierdo sbre un marcador para ir ahí, click derecho para borrarlo. <br><br> Pulsa <keybinding> para crear un marcador de la vista actual o <strong>click derecho</strong> para crear una marca en la posición seleccionada.
-        creationSuccessNotification: La marca ha sido creada.
+        creationSuccessNotification: El marcador ha sido creado.
 
     # Interactive tutorial
     interactiveTutorial:
